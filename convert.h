@@ -18,11 +18,12 @@ string* linetoarr(string ptrtoptr){
    auto lam = [start, ptrtoptr] () -> int {
      int i(start);
      while (true){
-      if (ptrtoptr[i] == ' ')
+      if (ptrtoptr[i] == ' '){
          return i;
          break;//should do nothing but there for safety 
       }
       i++;
+      }
       return i;
    };
    int fin = lam();
