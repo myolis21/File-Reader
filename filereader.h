@@ -4,7 +4,7 @@
 #include "convert.h"
 using namespace std;
 
-int main(){
+int INTO_FILE(){
     vector<string> lines;
     string *randuse =  new string;
     cin >> *randuse;
